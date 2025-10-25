@@ -29,6 +29,12 @@ sudo apt install fio -y
 
 ## ⚙️ Użycie
 
+Pobierz test:
+
+  ```bash
+  wget https://raw.githubusercontent.com/bykogr/fio/main/fio_benchmark.sh
+  ```
+
 Nadaj uprawnienia do wykonania:
 
 ```bash
@@ -145,29 +151,7 @@ rand-read,READ,4K,1G,92,23400,390
 
 ---
 
-## 📜 Licencja
+## 📜 Autor
 
-MIT License © 2025 — możesz używać, modyfikować i rozpowszechniać dowolnie.
-Autor: *[Twoje imię / organizacja]*
+Autor: *KOGR 18.10.2025*
 
----
-
-## 💡 Wskazówki
-
-* Skrypt możesz łatwo uruchamiać z GitHuba:
-
-  ```bash
-  curl -sSL https://raw.githubusercontent.com/<user>/fio-benchmark/main/fio_benchmark.sh | bash
-  ```
-* Jeśli testujesz wiele maszyn, CSV z nazwą hosta i datą pozwoli Ci łatwo zebrać wyniki.
-
-```
-
----
-
-### ✅ Co możesz teraz zrobić
-
-- Wystarczy, że w swoim repo (`fio-benchmark`) nadpiszesz plik `README.md` powyższą treścią.  
-- GitHub sam ładnie wyrenderuje sekcje, tabele i kod.  
-- Jeśli chcesz, mogę dodać sekcję **„How to compare results across servers”** z prostym skryptem do łączenia CSV — chcesz, żebym to dopisał?
-```
